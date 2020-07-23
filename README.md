@@ -15,12 +15,6 @@ $git clone 원격저장소 주소
 
 -----자기소개 md파일 작성하기-----
 
-//작업한 코드 index에 담기
-$git add jooyeon.md
-
-//commit 메세지 작성하기
-$git commit -m "주연 자기소개 md파일"
-
 //각자 이름으로 branch 만들기
 $git branch jooyeon
 
@@ -29,6 +23,12 @@ $git branch
 
 //새로 만든 branch로 갈아타기
 $git checkout jooyeon
+
+//작업한 코드 index에 담기
+$git add jooyeon.md
+
+//commit 메세지 작성하기
+$git commit -m "주연 자기소개 md파일"
 
 //원격저장소 jooyeon branch로 업로드하기
 $git push origin jooyeon
